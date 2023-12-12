@@ -1,7 +1,7 @@
 baseurl = "https://mikekistler.github.io"
 DefaultContentLanguage = "en"
 title = "Mike Kistler's blog"
-LastChange = "2023"
+since = "2023"
 
 # Using theme as git submodule 
 theme = "beautifulhugo"
@@ -12,69 +12,25 @@ pygmentsUseClasses = true
 
 [Params]
   # author.name = "Mike Kistler"
- homeTitle = "Always Learning" # Set a different text for the header on the home page
-#  subtitle = "Always Learning" # Set a subtitle if you want one
-  mainSections = ["post","posts"]
-#  logo = "img/avatar-icon.png" # Expecting square dimensions
-#  favicon = "img/favicon.ico"
+  homeTitle = "Always Learning" # Set a different text for the header on the home page
+  #  subtitle = "Always Learning" # Set a subtitle if you want one
+  # Set which sections to show on the home page
+  mainSections = ["blog"]
+  # logo = "img/avatar-icon.png" # Expecting square dimensions
+  # favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   # rss = true
-#  comments = true
-#   readingTime = true
-#   wordCount = true
-#   useHLJS = true
-#   socialShare = true
-#   delayDisqus = true
-#   showRelatedPosts = true
-#  hideAuthor = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
-
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
-
-[Author]
-  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-#   website = "yourwebsite.com"
-#   email = "youremail@domain.com"
-#   facebook = "username"
-  # github = "mikekistler"
-#   gitlab = "username"
-#   bitbucket = "username"
-  # twitter = "mkistler82"
-#   reddit = "username"
-  # linkedin = "mikekistler"
-#   xing = "username"
-#   stackoverflow = "users/XXXXXXX/username"
-#   snapchat = "username"
-#   instagram = "username"
-#   youtube = "user/username" # or channel/channelname
-#   soundcloud = "username"
-#   spotify = "username"
-#   bandcamp = "username"
-#   itchio = "username"
-#   vk = "username"
-#   paypal = "username"
-#   telegram = "username"
-#   500px = "username"
-#   codepen = "username"
-  # mastodon = "https://mastodon.social/@mikekistler"
-#   kaggle = "username"
-#   weibo = "username"
-#   slack = "username"
-#   medium = "username"
-#   discord = "invite code (https://discord.gg/XXXXXXX)"
-#   strava = "userid"
+  # comments = true
+  # readingTime = true
+  # wordCount = true
+  # useHLJS = true
+  # socialShare = true
+  # delayDisqus = true
+  # showRelatedPosts = true
+  # hideAuthor = true
+  # gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  # disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
 
 [[menu.main]]
     name = "Blog"
@@ -85,29 +41,6 @@ pygmentsUseClasses = true
     name = "About"
     url = "page/about/"
     weight = 3
-
-# [[menu.main]]
-#     identifier = "samples"
-#     name = "Samples"
-#     weight = 2
-
-# [[menu.main]]
-#     parent = "samples"
-#     name = "Big Image Sample"
-#     url = "post/2017-03-07-bigimg-sample"
-#     weight = 1
-
-# [[menu.main]]
-#     parent = "samples"
-#     name = "Math Sample"
-#     url = "post/2017-03-05-math-sample"
-#     weight = 2
-
-# [[menu.main]]
-#     parent = "samples"
-#     name = "Code Sample"
-#     url = "post/2016-03-08-code-sample"
-#     weight = 3
 
 [[menu.main]]
     name = "Tags"
